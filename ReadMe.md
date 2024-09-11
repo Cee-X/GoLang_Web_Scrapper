@@ -17,16 +17,19 @@ RSS Aggregator is a Go-based application that fetches and processes RSS feeds fr
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/rss-aggregator.git
+   git clone https://github.com/Cee-X/rss-aggregator.git
    cd rss-aggregator
 
 2. install dependencies:
-   go mod tidy
+    ```sh
+    go mod tidy
 
 3. Create a PostgreSQL database:
 
+
 4. Run the application:
-   go build && ./rssagg
+    ```sh
+    go build && ./rssagg
 
 Usage 
 GET/users  - Get all users
@@ -39,6 +42,7 @@ GET/posts - Get all posts
 
 
 Acknowledgements
+This project uses the following libraries:
 .go-chi for the http router
 .sqlc for the SQL query generation
 .goose for the database migration
